@@ -1,0 +1,57 @@
+#content{
+    height: 3000px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    background-color: rgb(255, 255, 255);
+    z-index:1;
+    
+
+}
+#image{
+    position:absolute;
+    height: 200px;
+    width:200px;
+    margin-left: 200px;
+    transition-duration: 5s ;
+}
+
+#text{
+    height: 250px;
+    width:600px;
+    color:black;
+    margin-left: 500px;
+}
+p{
+    color:black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h{
+    color:orange
+}
+
+#filter{
+    background-color: rgb(56, 54, 54);
+    height:700px;
+    width:150px;
+    top:110px;
+    display:flex;
+ flex-direction: column;
+     position: fixed;
+    font-size: 20px;
+    color: black;
+
+} 
+h3{
+    color:rgb(255, 242, 242);
+}
+
+#price{
+    left: 10px;
+    display: flex;
+}
+#image:hover{
+    transform: scale(3);
+    transform:translate(400px);
+}
